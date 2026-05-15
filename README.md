@@ -151,7 +151,7 @@ Software engineering fundamentals matter more than ever. These skills are my bes
 
 ## Documentation
 
-This fork adds a full `docs/` directory that demystifies every skill — not just what to run, but *how* each skill achieves its goal and how to improve it.
+This fork adds a full `docs/` directory that demystifies every skill — not just what to run, but *how* each skill achieves its goal and how to improve it. **Every skill doc includes a "How to improve" section** with specific, actionable suggestions for making each skill more powerful.
 
 | Doc | What's inside |
 |-----|--------------|

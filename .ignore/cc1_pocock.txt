@@ -1,0 +1,462 @@
+ude --resume "pocock"
+
+simon@Simon_laptop MINGW64 ~/Downloads/claude_code_engineer_skills/engineer_skills_matt_pocock
+$ claude-yolo --chrome --resume
+ ▐▛███▜▌   Claude Code v2.1.142
+▝▜█████▛▘  Sonnet 4.6 · Claude Max
+  ▘▘ ▝▝    ~\Downloads\claude_code_engineer_skills\engineer_skills_matt_poc…
+
+> /technical-docs-writer the goal of the docs is to demystify the skills. how
+does each of the skill achieve its goal ? dissect each skill file and its
+associate assets. explain how each can be improved
+
+● I'll start by auditing the project structure before writing anything.
+
+  Read 2 files, listed 5 directories (ctrl+o to expand)
+
+● Now let me read all the skill files in parallel.
+
+  Read 18 files (ctrl+o to expand)
+
+● Now let me read the associated asset files for the key skills.
+
+  Read 12 files, listed 7 directories (ctrl+o to expand)
+
+● Let me check what's in the existing docs and look at the technical-docs-writer
+   reference files.
+
+  Read 1 file, listed 1 directory (ctrl+o to expand)
+
+● Let me check one more missing reference and the scripts folder.
+
+  Read 3 files, listed 1 directory (ctrl+o to expand)
+
+● Now I have everything I need. Let me write all the documentation.
+
+● Write(docs\index.md)
+  ⎿  Wrote 51 lines to docs\index.md
+       2 # Skills for Real Engineers — Documentation
+       3 Composable agent skills built on decades of engineering fundamen
+         tals. Each skill is a small, hackable process for one specific p
+         art of the development workflow.
+       4
+       6 ---
+       7 ## Documentation
+       8
+       9 | Section | What's inside |
+      10 |---------|--------------|
+     … +67 lines (ctrl+o to expand)
+
+● Write(docs\overview\what-is-this.md)
+  ⎿  Wrote 86 lines to docs\overview\what-is-this.md
+      2 # What is this?
+      3 A collection of composable agent skills for real software enginee
+        ring — not vibe coding. Each skill encodes a specific engineering
+         discipline as a repeatable process an AI agent can follow.
+      4
+      5 ---
+      6
+      7 ## The problem these skills solve
+      8
+      9 AI coding agents fail in four predictable ways:
+     … +121 lines (ctrl+o to expand)
+
+● Write(docs\overview\key-concepts.md)
+  ⎿  Wrote 87 lines to docs\overview\key-concepts.md
+      2 # Key concepts
+      3 Definitions for every term used across skill docs. Terms specific
+        pear across multiple skills are defined here.s doc; terms that ap
+      4
+      5 ---
+      7 ## Skills and structure
+      8
+        gives an agent a process to follow for one specific task. Invoked
+         with a `/name` command. The agent receives the SKILL.md content
+        as context.
+     … +144 lines (ctrl+o to expand)
+
+● Now let me write all 14 skill docs in parallel batches.
+
+● Write(docs\skills\engineering\setup-matt-pocock-skills.md)
+  ⎿  Wrote 82 lines to docs\skills\engineering\setup-matt-pocock-skills.md
+      2 # setup-matt-pocock-skills
+        r engineering skills consume. Run this first, before using `triag
+        rchitecture`, or `zoom-out`.tdd`, `diagnose`, `improve-codebase-a
+      4
+      6 ---
+      8 ## The problem it solves
+      9 The engineering skills need to know three things about a repo tha
+        l strings the issue tracker uses for triage states, and how domai
+        fail silently or produce output that doesn't match the project's
+        actual workflow.
+     … +127 lines (ctrl+o to expand)
+
+● Write(docs\skills\engineering\grill-with-docs.md)
+  ⎿  Wrote 88 lines to docs\skills\engineering\grill-with-docs.md
+      2 # grill-with-docs
+        ct's existing domain model, sharpens terminology, and updates `CO
+        gineering-flavored version of `/grill-me`.ons crystallize. The en
+      4
+      6 ---
+      8 ## The problem it solves
+      9 When you start building a feature, two kinds of misalignment exis
+        f what to build (the classic "not what I meant" problem). Second,
+        bulary — so the agent will name new code inconsistently, making t
+        he codebase harder to navigate.
+     … +154 lines (ctrl+o to expand)
+
+● Write(docs\skills\engineering\diagnose.md)
+  ⎿  Wrote 116 lines to docs\skills\engineering\diagnose.md
+      2 # diagnose
+      3 A six-phase discipline for hard bugs and performance regressions.
+        oop. Every other phase serves the loop.esize without a feedback l
+      4
+      5 ---
+      7 ## The problem it solves
+      8
+        tare at code, form a hypothesis, apply a fix, test manually, repe
+        at until something sticks." This is slow and produces fixes that
+        mask symptoms rather than eliminating causes.
+     … +177 lines (ctrl+o to expand)
+
+● Write(docs\skills\engineering\tdd.md)
+  ⎿  Wrote 120 lines to docs\skills\engineering\tdd.md
+      2 # tdd
+        e vertical slice at a time. Enforces behavior-level tests over im
+        plementation-detail tests.
+      5 ---
+      6
+      8 ## The problem it solves
+         code, producing tests that test the shape of things (data struct
+        ures, function signatures) rather than the behavior that matters.
+         change behavior) and insensitive (they pass when behavior actual
+        ly breaks).
+     … +175 lines (ctrl+o to expand)
+
+● Write(docs\skills\engineering\triage.md)
+  ⎿  Wrote 123 lines to docs\skills\engineering\triage.md
+      2 # triage
+        e workflow. Handles triage evaluation, agent brief authoring, gri
+        ural-language invocation.ix documentation — all from a single nat
+      4
+      6 ---
+      8 ## The problem it solves
+      9 Issue trackers fill up with unlabeled, under-specified issues. An
+        ng, do the wrong thing, or ask clarifying questions in code comme
+        -agent` has a complete, durable specification — an agent brief —
+        that an agent can work from without human intervention.
+     … +198 lines (ctrl+o to expand)
+
+● Write(docs\skills\engineering\improve-codebase-architecture.md)
+  ⎿  Wrote 117 lines to
+     docs\skills\engineering\improve-codebase-architecture.md
+      2 # improve-codebase-architecture
+        pportunities (refactors that turn shallow modules into deep ones)
+        , and guide the user through implementing the chosen improvement.
+        nd `docs/adr/` decisions.ng the project's `CONTEXT.md` glossary a
+      4
+      6 ---
+      8 ## The problem it solves
+      9 AI agents accelerate software entropy. Because code can be writte
+        a codebase full of shallow pass-through modules, tangled callers,
+         no good test seams, and behavior spread across too many places.
+     … +189 lines (ctrl+o to expand)
+
+● Write(docs\skills\engineering\to-prd.md)
+  ⎿  Wrote 76 lines to docs\skills\engineering\to-prd.md
+      2 # to-prd
+        anding into a Product Requirements Document, then publishes it to
+         the issue tracker. No interview — it works from what's already b
+      4 een discussed.
+      5 ---
+      7 ## The problem it solves
+      9 After a grilling session with `/grill-with-docs`, you have a plan
+         in your head and in the conversation history. But conversation c
+         skill captures the plan as a structured, permanent artifact in t
+        he issue tracker, ready for agents to work from.
+     … +123 lines (ctrl+o to expand)
+
+● Write(docs\skills\engineering\to-issues.md)
+  ⎿  Wrote 105 lines to docs\skills\engineering\to-issues.md
+      2 # to-issues
+        n the project issue tracker using vertical slices (tracer bullets
+        ). Each issue is a thin, complete path through all integration la
+      4 yers.
+      5 ---
+      7 ## The problem it solves
+      9 Plans get broken into tasks in one of two problematic ways: eithe
+        r in large chunks ("implement authentication") that are too big f
+        tabase schema," "write the API handlers," "write the UI") that ca
+        n't be verified until all layers are complete.
+     … +146 lines (ctrl+o to expand)
+
+● Write(docs\skills\engineering\prototype.md)
+  ⎿  Wrote 98 lines to docs\skills\engineering\prototype.md
+      2 # prototype
+        Routes between two branches: a logic prototype (interactive termi
+        lti-variant page with a floating switcher for visual questions).u
+      4
+      6 ---
+      8 ## The problem it solves
+      9 Design decisions made on paper or in conversation are often wrong
+        te machine that looks correct in a diagram may have impossible tr
+        s obvious in mockup form may feel wrong when it's live next to re
+        al data.
+     … +160 lines (ctrl+o to expand)
+
+● Write(docs\skills\engineering\zoom-out.md)
+  ⎿  Wrote 57 lines to docs\skills\engineering\zoom-out.md
+      2 # zoom-out
+      3 Tells the agent to step back from implementation detail and produ
+        ocabulary. One-line skill for navigating unfamiliar code.domain v
+      4
+      6 ---
+      7 ## The problem it solves
+      9 When working in an unfamiliar part of a codebase, an agent (or hu
+        man) can get lost in implementation detail without understanding
+        tion do?" is a different question from "what calls this function,
+         and why does it exist in this system?"
+     … +85 lines (ctrl+o to expand)
+
+● Write(docs\skills\productivity\grill-me.md)
+  ⎿  Wrote 61 lines to docs\skills\productivity\grill-me.md
+      2 # grill-me
+      3 Relentlessly interviews you about a plan or design until every br
+        not code-specific.on tree is resolved. The base grilling skill —
+      4
+      5 ---
+      7 ## The problem it solves
+      8
+        e often left unstated assumptions that will cause problems mid-im
+        plementation. You don't know what you don't know. The grilling se
+        ssion surfaces those gaps before any code is written.
+     … +86 lines (ctrl+o to expand)
+
+● Write(docs\skills\productivity\handoff.md)
+  ⎿  Wrote 57 lines to docs\skills\productivity\handoff.md
+      2 # handoff
+      3 Compacts the current conversation into a handoff document so anot
+        her agent session can continue the work without losing context.
+      5 ---
+      6
+      7 ## The problem it solves
+      9 Agent sessions have limited context windows. When a session ends
+        mid-task, the next session starts cold — it doesn't know what was
+         tried, what was decided, or what's left to do. Reconstructing th
+        is context wastes tokens and time.
+     … +85 lines (ctrl+o to expand)
+
+● Write(docs\skills\productivity\caveman.md)
+  ⎿  Wrote 81 lines to docs\skills\productivity\caveman.md
+      2 # caveman
+      3 Ultra-compressed communication mode. Drops articles, filler words
+        . Triggered by "caveman mode" / "less tokens" / `/caveman`.curacy
+      4
+      6 ---
+      7 ## The problem it solves
+      9 Agent responses often pad technical content with verbal overhead:
+         "Sure! I'd be happy to help you with that. The issue you're expe
+        ing. Caveman mode eliminates the padding while preserving the sub
+        stance.
+     … +106 lines (ctrl+o to expand)
+
+● Write(docs\skills\productivity\write-a-skill.md)
+  ⎿  Wrote 129 lines to docs\skills\productivity\write-a-skill.md
+      2 # write-a-skill
+      3 Creates new skills with proper structure, a good description for
+      4 reliable triggering, and companion files when needed.
+      5 ---
+      6
+      8 ## The problem it solves
+      9 Skills are only as good as their description and structure. A ski
+        n't tell when it's relevant. A skill stuffed into one file become
+        s hard to navigate. This skill encodes the rules for building ski
+        lls that work well.
+     … +153 lines (ctrl+o to expand)
+
+● Write(docs\skills\misc\git-guardrails-claude-code.md)
+  ⎿  Wrote 92 lines to docs\skills\misc\git-guardrails-claude-code.md
+      2 # git-guardrails-claude-code
+      3 Installs a Claude Code `PreToolUse` hook that intercepts and bloc
+      4 ks dangerous git commands before the agent executes them.
+      5 ---
+      7 ## The problem it solves
+      8
+        nds are destructive and irreversible: `git push --force`, `git re
+        set --hard`, `git clean -f`. Without guardrails, an agent running
+        rking changes, or clean untracked files — without any human confi
+        rmation.
+     … +117 lines (ctrl+o to expand)
+
+● Write(docs\skills\misc\migrate-to-shoehorn.md)
+  ⎿  Wrote 63 lines to docs\skills\misc\migrate-to-shoehorn.md
+      2 # migrate-to-shoehorn
+        pt/shoehorn`, a library that provides type-safe alternatives for
+        passing partial or intentionally wrong data in tests.
+      5 ---
+      6
+      8 ## The problem it solves
+        requires specifying the full type and providing all required fiel
+        ds even when only one field matters for the test. `as unknown as
+        ecking. Both encourage writing verbose test fixtures or disabling
+         type safety.
+     … +87 lines (ctrl+o to expand)
+
+● Write(docs\skills\misc\scaffold-exercises.md)
+  ⎿  Wrote 73 lines to docs\skills\misc\scaffold-exercises.md
+      2 # scaffold-exercises
+      3 Creates AI Hero course exercise directory structures — sections w
+        hero-cli internal lint` validator.iners — that pass the `pnpm ai-
+      4
+      5 ---
+      7 ## The problem it solves
+      8
+        ntion enforced by a linter. Hand-creating these structures is ted
+        ious and error-prone. This skill automates the creation from a pl
+        an, then validates with the linter before committing.
+     … +93 lines (ctrl+o to expand)
+
+● Write(docs\skills\misc\setup-pre-commit.md)
+  ⎿  Wrote 85 lines to docs\skills\misc\setup-pre-commit.md
+      2 # setup-pre-commit
+      3 Sets up Husky pre-commit hooks with lint-staged (Prettier on all
+         once per repo.type checking, and tests in a Node.js project. Run
+      4
+      5 ---
+      7 ## The problem it solves
+      8
+         after a PR is open and reviewers are waiting. Pre-commit hooks c
+        atch formatting, type errors, and test failures before the commit
+         lands, without requiring any manual discipline.
+     … +108 lines (ctrl+o to expand)
+
+● Now let me write the improvement guide and verify all cross-links are valid.
+
+● Write(docs\improvement-guide.md)
+  ⎿  Wrote 131 lines to docs\improvement-guide.md
+      1 # Improvement guide
+      2
+      3 Patterns for improving existing skills and writing new ones, draw
+        n from dissecting the skills in this repo.
+      4
+      5 ---
+      6
+      7 ## The three skill quality dimensions
+      8
+      9 Every skill can be evaluated on three dimensions:
+     … +187 lines (ctrl+o to expand)
+
+● Now let me verify all the files were created and cross-links are valid.
+
+  Searched for 1 pattern (ctrl+o to expand)
+
+● All 22 files created. Let me run a quick validation for stubs and broken
+  links.
+
+  Searched for 2 patterns (ctrl+o to expand)
+
+● Bash(# Verify key cross-links resolve to real files
+      $base = "C:\Users\simon\Downloads\claude_code_engineer_skills\engineer_ski
+      lls_matt_pocock"…)
+  ⎿  Error: Exit code 2
+     /usr/bin/bash: line 4: =: command not found
+     /usr/bin/bash: eval: line 5: syntax error near unexpected token `('
+     /usr/bin/bash: eval: line 5: `$checks = @('
+
+● Bash(for f in \
+        "C:/Users/simon/Downloads/claude_code_engineer_skills/engineer_skills_ma
+      tt_pocock/docs/skills/engineering/grill-with-docs.md" \…)
+  ⎿  OK: C:/Users/simon/Downloads/claude_code_engineer_skills/engineer_skil
+     ls_matt_pocock/docs/skills/engineering/grill-with-docs.md
+     OK: C:/Users/simon/Downloads/claude_code_engineer_skills/engineer_skil
+     … +6 lines (ctrl+o to expand)
+
+● All links resolve. No stubs detected (the two "TODOs" in scaffold-exercises.md
+   are part of describing what a problem/ folder contains, not incomplete doc
+  content).
+
+  Here's what was created:
+
+  ---
+  22 documentation files written to docs/ covering the full skill collection.
+
+  What the docs contain
+
+  Overview (docs/overview/)
+  - what-is-this.md — the four failure modes these skills address, the design
+  philosophy, how skills work internally (trigger/process/resources layers), and
+   the shared infrastructure (CONTEXT.md, ADRs, docs/agents/)
+  - key-concepts.md — every term used across skills: skill, bucket, trigger,
+  asset file, CONTEXT.md, ADR, module, interface, depth, seam, vertical slice,
+  tracer bullet, and more
+
+  Per-skill docs (docs/skills/engineering/, productivity/, misc/) — for each of
+  the 14 skills:
+  - The problem it solves
+  - A phase-by-phase breakdown of exactly how the SKILL.md instruction works
+  - A table of every associated asset file with what it contains and why it
+  matters
+  - The mechanism — the underlying principle that makes the approach work
+  - Concrete, specific improvements with actionable suggestions
+
+  Improvement guide (docs/improvement-guide.md) — 7 cross-cutting patterns
+  extracted from the dissection (explicit gates, termination conditions,
+  vocabulary layers, description quality, progressive disclosure,
+  self-demonstrating content, inline updates), plus a table of the most common
+  weaknesses found across the collection and a new-skill checklist.
+
+✻ Baked for 1h 18m 4s
+
+※ recap: Documentation is complete. 22 files written to docs/ covering every
+  skill with goal, mechanics, asset dissection, and improvement suggestions. No
+  action needed. (disable recaps in /config)
+
+> do we have an index file pointing to the files that you created
+  ⎿  API Error: 529 Overloaded. This is a server-side issue, usually temporary —
+      try again in a moment. If it persists, check status.claude.com.
+
+✻ Churned for 3m 34s
+
+> do we have an index file pointing to the files that you created
+  ⎿  API Error: 529 Overloaded. This is a server-side issue, usually temporary —
+      try again in a moment. If it persists, check status.claude.com.
+
+✻ Cooked for 4m 11s
+
+> /exit
+  ⎿  Goodbye!
+
+> do we have an index file pointing to the files that you created
+
+  Read 1 file (ctrl+o to expand)
+
+● Yes — docs/index.md exists and links to all 22 files created. It has three      tables covering every skill across the three buckets (Engineering,
+  Productivity, Misc), plus links to the overview docs and the improvement
+  guide.
+
+✻ Worked for 15s
+
+> in README.md, top front and center, mention that this is a clone of the         original https://github.com/mattpocock/skills, enhanced with comprehensive      documentations. highlight some of the docs. commit and push to                  github.com/az9713/engineer-skills-tutorial. also recommend to watch the YT      video : 5 "Engineer-Only" Claude Skills Every Vibe Coder NEEDS                  https://www.youtube.com/watch?v=M-8lv5TXUYk for a demo of the skills. use gh    cli to create the repo
+
+● Let me check the current git state and README first.
+
+● Bash(cd "C:\Users\simon\Downloads\claude_code_engineer_skills\engineer_skills_
+      matt_pocock" && git status && git remote -v)
+  ⎿  Error: Exit code 128
+     fatal: not a git repository (or any of the parent directories): .git
+
+  Read 1 file (ctrl+o to expand)
+
+● Now let me update the README and set up the repo.
+
+  Reading 1 file… (ctrl+o to expand)
+  ⎿  README.md
+
+* Creating… (1m 44s · ↓ 570 tokens · almost done thinking)
+  ⎿  Tip: Create skills by adding .md files to .claude/skills/ in your project       or ~/.claude/skills/ for skills that work in any project
+
+────────────────────────────────────────────────────────────────────── pocock ──> 
+────────────────────────────────────────────────────────────────────────────────
+  | Sonnet 4.6 | engineer_skills_matt_pocock | ctx 32% | 5h 8% | 7d 6% |
+  ⏵⏵ bypass permissions on (shift+tab to cycle)
+
